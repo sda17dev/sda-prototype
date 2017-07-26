@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta name="google-translate-customization" content="acceba8fd8dabe0d-711e5748af451b68-g35cf790247878c3b-14"></meta>
+<title>총무닷컴-메인</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="../css/chongmu.css">
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+<!--[if IE]><link rel="stylesheet" type="text/css" href="../css/ie.css"/><![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<script src='../js/jquery-1.7.2.min.js'></script>
+<script src="../js/slides.min.jquery.js"></script>
+<script src="../js/chongmu.js"></script>
+</head>
+<body>
+    <header>
+    <div class="inner">
+        <h1><a href="#">총무닷컴</a></h1>
+		<nav>
+			<ul class="ng01">
+				<li class="login"><a href="#">로그인</a><span>|</span></li>
+				<li class="join"><a href="#">회원가입</a><span>|</span></li>
+				<li class="custom"><a href="#">고객센터</a><span>|</span></li>
+				<li class="site"><a href="#">사이트맵</a><span>|</span></li>
+				<li class="lang"><a href="#">언어선택 <em>▼</em></a><span>|</span></li>
+				<li class="google"><a href="#">구글</a></li>
+			</ul>
+			<form class="cf01" action="" method="post">
+				<label for="search_query">검색어</label>
+				<input type="text" name="query" id="search_query" />
+				<button>검색</button>
+			</form>
+			<ul class="ng02">
+				<li class="fb"><a href="#" title="페이스북">페이스북</a></li>
+				<li class="blog"><a href="#" title="블로그">블로그</a></li>
+				<li class="cafe"><a href="#" title="네이버까페">네이버까페</a></li>
+			</ul>
+		</nav>
+		<menu>
+			<li class="solution"><a href="#">솔루션</a></li>
+			<li class="shop"><a href="#">총무백화점</a></li>
+			<li class="consult"><a href="#">컨설팅</a></li>
+			<li class="school"><a href="#">총무사관학교</a></li>
+			<li class="knowhow"><a href="#">총무노하우</a></li>
+		</menu>
+		<div class="fc01 submenu">
+			<ul class="ng03 solution">
+				<li><a href="#">자산관리</a></li>
+				<li><a href="#">문서관리</a></li>
+				<li><a href="#">해외이사</a></li>
+				<li><a href="#">급여대행</a></li>
+				<li><a href="#">연말정산</a></li>
+				<li><a href="#">해외주재원지원</a></li>
+				<li><a href="#">구매대행</a></li>
+			</ul>
+			<ul class="ng03 consult">
+				<li><a href="#">공간컨설팅</a></li>
+				<li><a href="#">급여컨설팅</a></li>
+				<li><a href="#">총무컨설팅</a></li>
+			</ul>
+			<ul class="ng03 school">
+				<li><a href="#">취업준비과정</a></li>
+				<li><a href="#">초급자과정</a></li>
+				<li><a href="#">중급자과정</a></li>
+				<li><a href="#">전문가과정</a></li>
+			</ul>
+			<ul class="ng03 knowhow">
+				<li><a href="#">인사</a></li>
+				<li><a href="#">총무</a></li>
+				<li><a href="#">보안</a></li>
+				<li><a href="#">뉴스&소식</a></li>
+				<li><a href="#">뉴스레터</a></li>
+				<li><a href="#">법령/판례</a></li>
+				<li><a href="#">자유게시판</a></li>
+			</ul>
+		</div>
+	</div>
+    </header>
+	<!-- 메인 배너 영역 -->
+    <section class="banner">
+		<div class="ib01">
+			<ul class="slide">
+				<li class="type1">
+					<dl>
+						<dt>2014년 세법개정에 따른 <strong>연말정산</strong></dt>
+						<dd class="sum">신용카드 등 공제비율은 15%에서 10%로 축소<br/>의료비 기부금, 교육비, 연금저축은 소득공제에서 세액공제로 변경</dd>
+						<dd class="btn"><a class="btn01" href="#">자세히보기</a></dd>
+					</dl>
+					<img src="../images/ban_main01.png" alt="2014 세법개정 소득공제에서 세액공제..."/>
+				</li>
+				<li class="type1" style="display:none">
+					<dl>
+						<dt>2014년 세법개정에 따른 <strong>연말정산</strong></dt>
+						<dd class="sum">신용카드 등 공제비율은 15%에서 10%로 축소<br/>의료비 기부금, 교육비, 연금저축은 소득공제에서 세액공제로 변경</dd>
+						<dd class="btn"><a class="btn01" href="#">자세히보기</a></dd>
+					</dl>
+					<img src="../images/ban_main01.png" alt="2014 세법개정 소득공제에서 세액공제..."/>
+				</li>
+			</ul>
+		</div>
+		<a class="btn02" href="#">UP/DOWN</a>
+	</section>
+	<!-- //메인 배너 영역 -->
+	<!-- 컨텐츠 영역 -->
+    <section class="main"><!-- 개발자 주 : 메인페이지인 경우 class에 'main'을 지정하고, 서브 페이지인 경우 'sub'를 지정할 것 -->
+		<div class="inner">
+			<!-- 개발자 주 : ng06
+				- r1~r4는 타일의 row 위치값임
+				- c1~c6은 타일의 column 위치값임
+				- w1~w3은 타일의 폭을 지정한다. 
+				- background-image 는 배경이미지 경로를 지정한다.
+			-->
+			<ul class="ng06">
+				<li class="r1 c1 w3"><a style="background-image:url(../images/bg_tile_calculate.jpg)" href="#"><strong>연말정산</strong><span>총무닷컴이 연말정산을 도와드립니다.</span></a></li>
+				<li class="r1 c4 w1"><a style="background-image:url(../images/bg_tile_pot.jpg)" href="#"><strong>화분관리</strong></a></li>
+				<li class="r1 c5 w1"><a style="background-image:url(../images/bg_tile_car.jpg)" href="#"><strong>차량</strong></a></li>
+				<li class="r1 c6 w1"><a style="background-image:url(../images/bg_tile_consult.jpg)" href="#"><strong>컨설팅</strong></a></li>
+				<li class="r2 c1 w1"><a style="background-image:url(../images/bg_tile_money.jpg)" href="#"><strong>자산관리</strong></a></li>
+				<li class="r2 c2 w1"><a style="background-image:url(../images/bg_tile_money2.jpg)" href="#"><strong>자산매각</strong></a></li>
+				<li class="r2 c3 w1"><a style="background-image:url(../images/bg_tile_house.jpg)" href="#"><strong>사택관리</strong></a></li>
+				<li class="r2 c4 w1"><a style="background-image:url(../images/bg_tile_deliver.jpg)" href="#"><strong>퀵/택배</strong></a></li>
+				<li class="r2 c5 w1"><a style="background-image:url(../images/bg_tile_print.jpg)" href="#"><strong>인쇄물</strong></a></li>
+				<li class="r2 c6 w1"><a style="background-image:url(../images/bg_tile_school.jpg)" href="#"><strong>총무</br/>사관학교</strong></a></li>
+				<li class="r3 c1 w1"><a style="background-image:url(../images/bg_tile_salary.jpg)" href="#"><strong>급여대행</strong></a></li>
+				<li class="r3 c2 w1"><a style="background-image:url(../images/bg_tile_document.jpg)" href="#"><strong>문서디자인</strong></a></li>
+				<li class="r3 c3 w1"><a style="background-image:url(../images/bg_tile_b2b.jpg)" href="#"><strong>B2B구매대행</strong></a></li>
+				<li class="r3 c4 w1"><a style="background-image:url(../images/bg_tile_office.jpg)" href="#"><strong>사무환경<br/>유지보수</strong></a></li>
+				<li class="r3 c5 w1"><a style="background-image:url(../images/bg_tile_house2.jpg)" href="#"><strong>사택</strong></a></li>
+				<li class="r3 c6 w1"><a style="background-image:url(../images/bg_tile_knowhow.jpg)" href="#"><strong>노하우</strong></a></li>
+				<li class="r4 c1 w1"><a style="background-image:url(../images/bg_tile_abroad.jpg)" href="#"><strong>해외주재원<br/>지원</strong></a></li>
+				<li class="r4 c2 w1"><a style="background-image:url(../images/bg_tile_abroad2.jpg)" href="#"><strong>해외이사</strong></a></li>
+				<li class="r4 c4 w1"><a style="background-image:url(../images/bg_tile_news.jpg)" href="#"><strong>최근뉴스</strong></a></li>
+				<li class="r4 c5 w1"><a style="background-image:url(../images/bg_tile_board.jpg)" href="#"><strong>자유게시판</strong></a></li>
+			</ul>
+		</div>
+		<!-- 오늘쪽 슬라이딩 메뉴 -->
+		<div class="slidingMenu">
+			<dl class="ng04">
+				<dt>외국인 임직원 사택지원 솔루션, Gloin Life</dt>
+				<dd class="cut"><a href="#">비용절감효과</a></dd>
+				<dd class="trust"><a href="#">신뢰서비스구축</a></dd>
+				<dd class="dev"><a href="#">부가서비스개발</a></dd>
+				<dd class="etners"><a href="#">etners</a></dd>
+			</dl>
+		</div>
+		<!-- //오른쪽 슬라이딩 메뉴 -->
+    </section>
+	<!-- //컨텐츠 영역 -->
+    <footer>
+	<div class="inner fc02">
+    	<a class="logo" href="/">총무닷컴</a>
+    	<div class="info">
+    		<ul class="ng05">
+    			<li><a href="#">사이트이용약관</a><span>|</span></li>
+    			<li><a href="#"><b>개인정보처리방침</b></a><span>|</span></li>
+    			<li><a href="#">회사소개</a><span>|</span></li>
+    			<li><a href="#">오시는길</a><span>|</span></li>
+    			<li class="fb">좋아요->1111</li>
+    		</ul>
+    		<address>주)총무닷컴  |  대표:김대겸  |  사업자등록번호 : 128-81-46448  |  통신판매업신고 : 제2013-경기성남-1526호<br/>경기도 성남시 분당구 대왕판교로 670 유스페이스 2-B동 7F (우: 463-400)  |  <a href="mailto:webmaster@chongmu.com">webmaster@chongmu.com</a></address>
+			<p class="copyright">Copyright ⓒ2000 Chongmu.com All rights reserved. </p>
+    	</div>
+    	<div class="contact">
+    		<a class="admin" href="#">관리자에게 문의</a>
+    		<a class="invite" href="#">초대하기</a>
+    		<p><span>전화:</span>031-628-6222</p>
+    	</div>
+    </div>
+    </footer>
+    <!-- 팝업 레이어 -->
+    <div class="etc01">
+    </div>
+   	<!-- //팝업 레이어 -->
+   	<!-- 로그인 팝업 페이지 -->
+   	<div class="pp02">
+   		<a href="#" class="close">닫기</a>
+   		<dl class="th06 th06_01">
+			<dt>Login</dt>
+			<dd>로그인이 필요한 서비스입니다.</dd>
+		</dl>
+		<form class="cf08 cf08_01" action="" method="post">
+		<p class="first">
+			<label for="user_id">아이디</label>
+			<input type="text" name="user_id" id="user_id"/>
+		</p>
+		<p>
+			<label for="user_pswd">비밀번호</label>
+			<input type="password" name="user_pswd" id="user_pswd"/> 
+		</p>
+		<button>로그인</button>
+	</form>
+	<div class="btn08 btn08_02 btn08_03">
+		<a href="#">회원가입</a>
+		<a href="#">아이디/비밀번호 찾기</a>
+	</div>
+	</div>
+   	<!-- //로그인 팝업 페이지 -->
+</body>
+</html>

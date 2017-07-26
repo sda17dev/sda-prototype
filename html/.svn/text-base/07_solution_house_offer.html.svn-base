@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<title>총무닷컴-서브</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link type="text/css" rel="stylesheet" href="http://gregfranko.com/jquery.selectBoxIt.js/css/jquery.selectBoxIt.css" />
+<link rel="stylesheet" type="text/css" href="../css/chongmu.css">
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+<!--[if IE]><link rel="stylesheet" type="text/css" href="../css/ie.css"/><![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<script src='../js/jquery-1.7.2.min.js'></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="http://gregfranko.com/jquery.selectBoxIt.js/js/jquery.selectBoxIt.min.js"></script>
+<script src="../js/slides.min.jquery.js"></script>
+<script src="../js/jquery.validate.min.js"></script>
+<script src="../js/chongmu.js"></script>
+</head>
+<body>
+    <header>
+    <div class="inner">
+        <h1><a href="#">총무닷컴</a></h1>
+		<nav>
+			<ul class="ng01">
+				<li class="login"><a href="#">로그인</a><span>|</span></li>
+				<li class="join"><a href="#">회원가입</a><span>|</span></li>
+				<li class="custom"><a href="#">고객센터</a><span>|</span></li>
+				<li class="site"><a href="#">사이트맵</a><span>|</span></li>
+				<li class="lang">
+					<div id="google_translate_element"></div>
+					<script type="text/javascript">
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+					}
+					</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</li>
+			</ul>
+			<form class="cf01" action="" method="post">
+				<label for="search_query">검색어</label>
+				<input type="text" name="query" id="search_query" />
+				<button>검색</button>
+			</form>
+			<ul class="ng02">
+				<li class="fb"><a href="#" title="페이스북">페이스북</a></li>
+				<li class="blog"><a href="#" title="블로그">블로그</a></li>
+				<li class="cafe"><a href="#" title="네이버까페">네이버까페</a></li>
+			</ul>
+		</nav>
+		<menu>
+			<li class="solution"><a href="#">솔루션</a></li>
+			<li class="shop"><a href="#">총무백화점</a></li>
+			<li class="consult"><a href="#">컨설팅</a></li>
+			<li class="school"><a href="#">총무사관학교</a></li>
+			<li class="knowhow"><a href="#">총무노하우</a></li>
+		</menu>
+		<div class="fc01 submenu">
+			<ul class="ng03 solution">
+				<li><a href="#">자산관리</a></li>
+				<li><a href="#">문서관리</a></li>
+				<li><a href="#">해외이사</a></li>
+				<li><a href="#">급여대행</a></li>
+				<li><a href="#">연말정산</a></li>
+				<li><a href="#">해외주재원지원</a></li>
+				<li><a href="#">구매대행</a></li>
+			</ul>
+			<ul class="ng03 consult">
+				<li><a href="#">공간컨설팅</a></li>
+				<li><a href="#">급여컨설팅</a></li>
+				<li><a href="#">총무컨설팅</a></li>
+			</ul>
+			<ul class="ng03 school">
+				<li><a href="#">취업준비과정</a></li>
+				<li><a href="#">초급자과정</a></li>
+				<li><a href="#">중급자과정</a></li>
+				<li><a href="#">전문가과정</a></li>
+			</ul>
+			<ul class="ng03 knowhow">
+				<li><a href="#">인사</a></li>
+				<li><a href="#">총무</a></li>
+				<li><a href="#">보안</a></li>
+				<li><a href="#">뉴스&소식</a></li>
+				<li><a href="#">뉴스레터</a></li>
+				<li><a href="#">법령/판례</a></li>
+				<li><a href="#">자유게시판</a></li>
+			</ul>
+		</div>
+	</div>
+    </header>
+	<!-- 네비게이터 영역 -->
+    <section class="navigator">
+		<dl class="ng07">
+			<dt><a href="#">홈</a></dt>
+			<dd>
+				<a class="d0" href="#">솔루션<em></em></a>
+				<ul>
+					<li><a href="#">서브메뉴1</a></li>
+					<li class="on"><a href="#">서브메뉴2</a></li>
+					<li><a href="#">서브메뉴서브3</a></li>
+					<li><a href="#">서브메뉴4</a></li>
+					<li><a href="#">서브메뉴서브메뉴5</a></li>
+					<li><a href="#">서브메뉴6</a></li>
+					<li><a href="#">서브메뉴7</a></li>
+				</ul>
+			</dd>
+			<dd>
+				<a class="d0" href="#">솔루션<em></em></a>
+				<ul>
+					<li><a href="#">서브메뉴1</a></li>
+					<li><a href="#">서브메뉴2</a></li>
+					<li><a href="#">서브메뉴서브3</a></li>
+					<li class="on"><a href="#">서브메뉴4</a></li>
+					<li><a href="#">서브메뉴서브메뉴5</a></li>
+					<li><a href="#">서브메뉴6</a></li>
+					<li><a href="#">서브메뉴7</a></li>
+				</ul>
+			</dd>
+		</dl>
+	</section>
+	<!-- 네비게이터 영역 -->
+	<!-- 컨텐츠 영역 -->
+    <section class="sub"><!-- 개발자 주 : 메인페이지인 경우 class에 'main'을 지정하고, 서브 페이지인 경우 'sub'를 지정할 것 -->
+		<div class="inner">
+			<dl class="th01 personnel">
+			<dt>자산관리서비스</dt>
+			<dd>가볍고 빠른 페이롤 서비스, 지금 만나보세요!</dd>
+		</dl>
+		<div class="solution_page">
+			<div class="sl_ib01 house_offer">
+				<h3>골치 아픈 사택지원 업무. All Clear!!!</h3>
+				<p><i>'사택지원 솔루션(Gloin Life)’</i>은 사택 계약지원부터<br/>각종 비품, 소모품 세팅 및 최종 정리까지 <br/>종합적으로 지원해 주는 솔루션입니다.</p>
+			</div>
+			<div class="sl_cf01">
+				<h3 class="sl_th01">비품은 회사 지원 기준에 의거하여<br/>임직원이 직접 시스템에서 선택할 수 있습니다.</h3>
+				<table class="sl_tc04" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td class="start" rowspan="3"><img src="../images/solution/icon_03.jpg" alt=""/><p>임직원</p></td>
+						<td class="arrow"><img src="../images/solution/bg_14.jpg" alt="서비스 신청 신청내역 확인"/></td>
+						<td class="box b01"><p>사택관리 System</p><img src="../images/solution/icon_02.jpg" alt=""/></td>
+						<td class="end" rowspan="3">
+							<b>지원 서비스 내역</b>
+							<ul class="sl_lc02">
+								<li>비품  :  전자제품, 가구, 소모품 등</li>
+								<li>인테리어  :  도배, 장판, 커튼, 청소 등</li>
+								<li>이사  :  국내이사, 해외이사</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td class="arrow"><img src="../images/solution/bg_15.jpg" alt="서비스 제공 사후 관리"/></td>
+						<td class="box b02"><p>사택지원 Service</p><img src="../images/solution/icon_04.jpg" alt=""/></td>
+					</tr>
+				</table>
+			</div>
+			<div class="sl_cf01">
+				<h3 class="sl_th01">솔루션 도입 효과</h3>
+				<ul class="sl_lc01 sl_lc01_02">
+					<li>- 입주부터 퇴거까지 토탈 서비스 지원</li>
+					<li>- 지속적인 원가분석 및 업체 소싱으로 매입단가 비용절감</li>
+					<li>- 구입에서 폐기까지 이력관리로 투명한 업무 프로세스 구축</li>
+					<li>- 사택 현황 및 통계 관리</li>
+			</div>
+			<div class="sl_cf01">
+				<h3 class="sl_th01">도입 사례</h3>
+				<ul class="sl_lc01 sl_lc01_02">
+					<li>S그룹 사택지원 솔루션 도입 운영 중 (약 1,400여 채)</li>
+					<li>- 담당자 업무 효율화</li>
+					<li>- 비품 단가계약을 통한 구입비용 절감</li>
+					<li>- 비품 일괄 지급 -> 임직원 자율선택으로 개선 (회사 지원 기준 내)</li>
+				</ul>
+			</div>
+			<div class="sl_cf01 last">
+				<h4 class="sl_th03">연관 서비스</h4>
+				<div class="sl_btn01">
+					<a href="#">B2B 구매대행</a>
+					<a href="#">자산매각</a>
+					<a href="#">해외이사</a>
+				</div>
+			</div>
+		</div>
+		<dl class="th04">
+			<dt>상담신청</dt>
+			<dd>망설이지 말고 신청하세요.<br/>담당자가 직접 얀락을 드리겠습니다.</dd>
+		</dl>
+		<form action="" method="post" class="cf09_01">
+			<table class="lc02 lc02_02" cellspacing="0" border="0" summury="상담신청">
+				<tr>
+					<td class="label"><i>*</i><label for="user_name">이름</label></td>
+					<td class="data"><input type="text" name="user_name" id="user_name" class="d2" /></td>
+				</tr>
+				<tr>
+					<td class="label"><i>*</i><label for="user_email">이메일</label></td>
+					<td class="data email">
+						<input type="text" name="user_email" id="user_email" class="d3" /><label for="user_email2">@</label><input type="text" name="user_email2" id="user_email2" class="d2_01" />
+						<label for="select_email" class="hid">이메일서비스 선택</label>
+						<select id="select_email" class="d2_01">
+							<option value="etc" >직접입력</option> 
+							<option value="gmail.com" >gmail.com</option> 
+							<option value="hanmail.net" >hanmail.net</option> 
+							<option value="nate.com" >nate.com</option> 
+							<option value="naver.com" >naver.com</option> 
+							<option value="hotmail.com" >hotmail.com</option> 
+							<option value="yahoo.com" >yahoo.com</option>
+							<option value="yahoo.co.kr" >yahoo.co.kr</option>
+							<option value="chollian.net" >chollian.net</option> 
+							<option value="dreamwiz.com" >dreamwiz.com</option> 
+							<option value="empal.com" >empal.com</option> 
+							<option value="hanmir.net" >hanmir.com</option> 
+							<option value="hitel.com" >hitel.com</option> 
+							<option value="korea.com" >korea.com</option> 
+							<option value="lycos.co.kr" >lycos.co.kr</option> 
+							<option value="netian.net" >netian.com</option>
+							<option value="etc" >직접입력</option> 
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="label"><i>*</i><label for="user_phone1">연락처</label></td>
+					<td class="data phone">
+						<select name="user_phone1" id="user_phone1"> 
+							<option value="010">010</option> 
+							<option value="011">011</option> 
+							<option value="016">016</option> 
+							<option value="017">017</option> 
+							<option value="018">018</option> 
+							<option value="019">019</option> 
+						</select>
+						<label for="user_phone2">-</label><input type="text" name="user_phone2" id="user_phone2" maxlength="4" class="d1" />
+						<label for="user_phone3">-</label><input type="text" name="user_phone3" id="user_phone3" maxlength="4" class="d1" />
+					</td>
+				</tr>
+				<tr>
+					<td class="label reason"><i>*</i><label for="user_query">문의사항</label></td>
+					<td class="data reason">
+						<textarea name="user_query"></textarea>
+					</td>
+				</tr>
+			</table>
+			<div class="fc01"><button class="btn04">작성완료</button></div>
+		</form>
+		</div>
+		<!-- 오늘쪽 슬라이딩 메뉴 -->
+		<div class="slidingMenu">
+			<dl class="tc01">
+				<dt>자산이란?</dt>
+				<dd class="sum">자산은 크게 고정자산과 유통자산으로 나누어...</dd>
+				<dd class="more"><a href="#">더보기</a></dd>
+				<dd class="close"><a href="#">X</a></dd>
+			</dl>
+			<dl class="ng04">
+				<dt>외국인 임직원 사택지원 솔루션, Gloin Life</dt>
+				<dd class="cut"><a href="#">비용절감효과</a></dd>
+				<dd class="trust"><a href="#">신뢰서비스구축</a></dd>
+				<dd class="dev"><a href="#">부가서비스개발</a></dd>
+				<dd class="etners"><a href="#">etners</a></dd>
+			</dl>
+		</div>
+		<!-- //오른쪽 슬라이딩 메뉴 -->
+    </section>
+	<!-- //컨텐츠 영역 -->
+    <footer>
+	<div class="inner fc02">
+    	<a class="logo" href="/">총무닷컴</a>
+    	<div class="info">
+    		<ul class="ng05">
+    			<li><a href="#">사이트이용약관</a><span>|</span></li>
+    			<li><a href="#"><b>개인정보처리방침</b></a><span>|</span></li>
+    			<li><a href="#">회사소개</a><span>|</span></li>
+    			<li><a href="#">오시는길</a><span>|</span></li>
+    			<li class="fb">좋아요->1111</li>
+    		</ul>
+    		<address>주)총무닷컴  |  대표:김대겸  |  사업자등록번호 : 128-81-46448  |  통신판매업신고 : 제2013-경기성남-1526호<br/>경기도 성남시 분당구 대왕판교로 670 유스페이스 2-B동 7F (우: 463-400)  |  <a href="mailto:webmaster@chongmu.com">webmaster@chongmu.com</a></address>
+			<p class="copyright">Copyright ⓒ2000 Chongmu.com All rights reserved. </p>
+    	</div>
+    	<div class="contact">
+    		<a class="admin" href="#">관리자에게 문의</a>
+    		<a class="invite" href="#">초대하기</a>
+    		<p><span>전화:</span>031-628-6222</p>
+    	</div>
+    </div>
+    </footer>
+
+</body>
+</html>

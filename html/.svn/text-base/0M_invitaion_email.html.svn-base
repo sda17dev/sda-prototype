@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>총무닷컴</title>
+</head>
+<body>
+	<table width="640px" height="104px" style="border-bottom:2px solid #e5e5e5;margin-bottom:35px" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td style="vertical-align:middle"><a href="#"><img src="../images/veri/logo.jpg" alt="총무닷컴"/></a></td>
+			<td style="vertical-align:middle"><img src="../images/veri/header01.jpg" alt="총무의, 총무에 의한, 총무를 위한 총무닷컴!"/></td>
+		</tr>
+	</table>
+	<table width="640px" height="25px" cellpadding="0" cellspacing="0" border="0" style="font-size:12px;padding:0 10px;color:#303030">
+		<tr>
+			<td>
+				<p><b>김총무</b> 회원님(<b>kimchongmu</b>) 께서 당신을 총무닷컴(<a href="http://chongmu.com" style="color:#ff5500">http://chongmu.com</a>)으로 초대하셨습니다.</p>
+			</td>
+		</tr>
+	</table>
+	<table width="618px" height="48px" style="font-size:12px;padding:0 10px" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td colspan="3"><img src="../images/veri/bdr_hd.jpg"></td>
+		</tr>
+		<tr>
+			<td width="3px" bgcolor="#ff5500"></td>
+			<td style="padding:0px 20px;line-height:24px;color:#666">
+				<p>여기 총무닷컴이라고 총무를 위한 사이트가 있는데,<br/>좋은 내용이 많네. 한번 들러봐요.</br>교육과정중에 쓸만한게 많아요. 10월 교육 하나 같이 듣지요</p>
+			</td>
+			<td width="3px" bgcolor="#ff5500"></td>
+		</tr>
+		<tr>
+			<td colspan="3"><img src="../images/veri/bdr_ft.jpg"></td>
+		</tr>
+		<tr>
+			<td height="100px" colspan="3" style="text-align:center">
+				<p><a href="#" style="font-size:14px;padding:8px 25px;background:#f50;color:#fff;text-align:center;border-radius:5px;text-decoration:none">바로가기</a></p>
+			</td>
+		</tr>
+	</table>
+	<table width="640px" cellpadding="0" cellspacing="0" border="0" style="border-top:1px dashed #e5e5e5;border-bottom:1px solid #e5e5e5">
+		<tr>
+			<td><img src="../images/veri/ban04.jpg" alt="총무의 모등 것, 총무를 위한 선택: 솔루션 / 총무백화점 / 컨설팅 / 총무사관학교 / 총무노하우"/></td>
+		</tr>
+	</table>
+	<table width="640px" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td><img src="../images/veri/footer.jpg" alt="주)총무닷컴  |  사업자등록번호 : 128-81-46448  |  통신판매업신고 : 제2013-경기성남-1526호 | 경기도 성남시 분당구 대왕판교로 670 유스페이스 2-B동 7F (우: 463-400)  |  webmaster@chongmu.com | Copyright ⓒ2000 Chongmu.com All rights reserved."/></td>
+		</tr>
+	</table>
+</body>
+</html>
