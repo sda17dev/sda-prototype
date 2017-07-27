@@ -328,3 +328,7 @@ button.btn01{height:63px}
 .th01 dt{float:left}
 .th01 dd{float:right}
 .th01 h1{font-size:30px;color:#333;line-height:40px}
+
+#seoul-gnb-plugin .seoul-gnb-news {
+	left: 135px !important;
+}
