@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/2/xeicon.min.css">
 <link rel="stylesheet" type="text/css" href="../css/archive.css"/>
 <link rel="stylesheet" type="text/css" href="../css/responsive.css"/>
-<link rel="stylesheet" type="text/css" href="../css/archive_slowalk.css"/>
+
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="../css/ie.css"/><![endif]-->
 <!--[if lt IE 9]><script src="../js/html5.js"></script><![endif]-->
 <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
@@ -19,8 +19,12 @@
 <script type="text/javascript">
 // GNB 로딩 스크립트
 // Yjs.Gnb.init('사이트 ID', 'GNB 표출영역 ID');
-window.onload = function() { Yjs
-.Gnb.init('G001', 'seoul-common-gnb'); };
+window.onload = function() {
+	Yjs.Gnb.init('G188', 'seoul-common-gnb', {
+		holder: { maxWidth: '1680px', paddingLeft: '40px' },
+		menu: { marginRight: '40px' }
+	});
+}
 </script>
 </head>
 <body>

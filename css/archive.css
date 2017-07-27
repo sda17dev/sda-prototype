@@ -7,8 +7,8 @@ Version:1.0
 */
 
 /* Font */
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/css?family=Lato);
 
 /* Common */
 html,body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,menu,a{margin:0;padding:0;font-family:'Noto Sans KR',sans-serif;font-size:16px;color:#666;line-height:24px}
@@ -328,4 +328,3 @@ button.btn01{height:63px}
 .th01 dt{float:left}
 .th01 dd{float:right}
 .th01 h1{font-size:30px;color:#333;line-height:40px}
-
